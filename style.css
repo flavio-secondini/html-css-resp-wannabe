@@ -71,3 +71,37 @@ img {
 .clear {
   clear: both;
 }
+
+/* ESERCIZIO */
+
+
+
+@media screen and (max-width: 420px) {
+
+  body {
+    margin: 0 auto;
+  }
+
+  #lezioni > .row {
+    background-color: #f2f2cd;
+    margin: 0;
+  }
+
+  #lezioni > .row > h1 {
+    margin: 0;
+  }
+
+  #lezioni > .left {
+    float: none;
+  }
+
+  #lezioni > .right {
+    float: none;
+  }
+
+  #why > .row {
+    background-color: #f2f2cd;
+    margin: 0;
+  }
+
+}
