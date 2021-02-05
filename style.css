@@ -82,6 +82,10 @@ img {
     margin: 0 auto;
   }
 
+  h1 {
+    margin: 0;
+  }
+
   #lezioni > .row {
     background-color: #f2f2cd;
     margin: 0;
@@ -95,6 +99,10 @@ img {
   #lezioni > .row > .right {
     float: none;
     width: 100%;
+  }
+
+  #steps {
+    background-color: white;
   }
 
   #steps > .row > .left {
