@@ -72,7 +72,7 @@ img {
   clear: both;
 }
 
-/* BONUS (ipad:768x1024)*/
+/* BONUS (ipad:768px)*/
 
 @media screen and (max-width: 768px) {
 
@@ -86,39 +86,42 @@ img {
   img {
     width: 25%;
     height: auto;
+    padding: 30px;
   }
 
   #why .row img {
     width: calc(25% - 60px);
     height: auto;
+    padding: 30px;
   }
 
   #lezioni .row .right img {
     width: 35%;
     height: auto;
+    padding: 30px;
   }
 
 /* nuovo spazio dei titoli principali */
   h1 {
     margin: 0;
-    padding: 10px 0;
+    padding: 30px 0;
   }
 
   h3 {
-    margin: 0;
+    margin: 15px 0;
   }
 
 /* nuovo distanziamento degli hr */
   hr {
-    margin-top: 0;
-    margin-bottom: 16px;
+    margin-top: 20;
+    margin-bottom: 30px;
   }
 
 /* tolta la grandezza in px per far adattare il layout alle nuove dimensioni più padding laterale*/
   .row {
     width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 /* nuovo layout, colore background e padding per la separazione verticale tra div */
@@ -130,13 +133,13 @@ img {
   #lezioni > .row > .left {
     float: none;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   #lezioni > .row > .right {
     float: none;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   #steps {
@@ -150,13 +153,13 @@ img {
   #steps > .row > .left {
     float: none;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   #steps > .row > .central {
     float: none;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   #steps > .row > .right {
@@ -168,7 +171,7 @@ img {
   #why > .row {
     background-color: #f2f2cd;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
 /* eliminato margine superiore dei div nella terza sezione */
@@ -194,16 +197,19 @@ img {
   img {
     width: 25%;
     height: auto;
+    padding: 0;
   }
 
   #lezioni .row .right img {
     width: 35%;
     height: auto;
+    padding: 0;
   }
 
   #why .row img {
     width: calc(25% - 60px);
     height: auto;
+    padding: 0;
   }
 
 /* nuovo spazio dei titoli principali */
