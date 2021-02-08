@@ -75,17 +75,49 @@ img {
 /* ESERCIZIO */
 
 
-
 @media screen and (max-width: 420px) {
 
+/* ridimensionamento margini e font */
   body {
     margin: 0 auto;
+    font-size: 12px;
   }
 
+/* nuova grandezza immagini */
+  img {
+    width: 25%;
+    height: auto;
+  }
+
+  #why .row img {
+    width: calc(25% - 60px);
+    height: auto;
+  }
+
+/* nuovo spazio dei titoli principali */
   h1 {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  h3 {
     margin: 0;
   }
 
+/* nuovo distanziamento degli hr */
+  hr {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+/* tolta la grandezza in px per far adattare il layout alle nuove dimensioni più padding laterale*/
+  .row {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+/* nuovo layout, colore background e padding per la separazione verticale tra div */
   #lezioni > .row {
     background-color: #f2f2cd;
     margin: 0;
@@ -94,35 +126,52 @@ img {
   #lezioni > .row > .left {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
   }
 
   #lezioni > .row > .right {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
   }
 
   #steps {
     background-color: white;
   }
 
+  #steps > .row{
+    margin-top: 0;
+  }
+
   #steps > .row > .left {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
   }
 
   #steps > .row > .central {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
   }
 
   #steps > .row > .right {
     float: none;
     width: 100%;
+    padding-bottom: 10px;
   }
 
   #why > .row {
     background-color: #f2f2cd;
     margin: 0;
+    padding-bottom: 10px;
+  }
+
+/* eliminato margine superiore dei div nella terza sezione */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0;
   }
 
 }
